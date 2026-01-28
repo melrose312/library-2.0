@@ -15,7 +15,7 @@ const Nav = ( {numberOfItems} ) => {
     <nav>
       <div className="nav__container">
         <Link to="/">
-          <img src={LibraryLogo} className="logo" />
+          <img src={LibraryLogo} alt="logo" className="logo" />
         </Link>
         <ul className="nav__links">
           <li className="nav__list">
